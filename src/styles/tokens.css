@@ -1,0 +1,22 @@
+/* Design tokens. Values are RGB triplets so Tailwind can apply alpha. */
+:root {
+  --primary: 23 107 77;        /* #176B4D botanical green */
+  --primary-hover: 18 88 63;
+  --primary-soft: 231 242 236;
+  --on-primary: 255 255 255;
+  --secondary: 73 164 108;     /* #49A46C */
+  --accent: 242 169 59;        /* #F2A93B amber, used sparingly: promo, cut-off */
+  --accent-soft: 254 243 224;
+  --bg: 248 250 247;           /* #F8FAF7 */
+  --surface: 255 255 255;
+  --surface-muted: 241 245 241;
+  --fg: 24 36 29;              /* #18241D */
+  --fg-muted: 76 92 82;
+  --fg-subtle: 117 132 122;
+  --border: 223 230 224;
+  --border-strong: 196 207 199;
+  --danger: 196 50 46;
+  --warning: 176 106 0;
+  --success: 31 128 75;
+  color-scheme: light;
+}

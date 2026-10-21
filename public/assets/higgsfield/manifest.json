@@ -1,0 +1,848 @@
+{
+ "generatedAt": "2026-10-21T06:35:56.290Z",
+ "assets": [
+  {
+   "name": "hero-desktop",
+   "higgsfieldJobId": "4ac58df3-3ef8-45ef-92ea-f6a478afa382",
+   "master": "assets-src/higgsfield/hero-desktop.png",
+   "masterSize": [
+    2688,
+    1152
+   ],
+   "variants": [
+    {
+     "file": "hero-desktop-1280.avif",
+     "width": 1280,
+     "height": 549,
+     "format": "avif",
+     "bytes": 73015
+    },
+    {
+     "file": "hero-desktop-1280.webp",
+     "width": 1280,
+     "height": 549,
+     "format": "webp",
+     "bytes": 88740
+    },
+    {
+     "file": "hero-desktop-1920.avif",
+     "width": 1920,
+     "height": 823,
+     "format": "avif",
+     "bytes": 122849
+    },
+    {
+     "file": "hero-desktop-1920.webp",
+     "width": 1920,
+     "height": 823,
+     "format": "webp",
+     "bytes": 159884
+    },
+    {
+     "file": "hero-desktop-2560.avif",
+     "width": 2560,
+     "height": 1097,
+     "format": "avif",
+     "bytes": 169295
+    },
+    {
+     "file": "hero-desktop-2560.webp",
+     "width": 2560,
+     "height": 1097,
+     "format": "webp",
+     "bytes": 235966
+    }
+   ],
+   "purpose": "Homepage hero ≥1024px (21:9)"
+  },
+  {
+   "name": "hero-tablet",
+   "higgsfieldJobId": "8e6e4a87-fad9-4e75-b96b-b6e94cba6472",
+   "master": "assets-src/higgsfield/hero-tablet.png",
+   "masterSize": [
+    2336,
+    1744
+   ],
+   "variants": [
+    {
+     "file": "hero-tablet-1024.avif",
+     "width": 1024,
+     "height": 764,
+     "format": "avif",
+     "bytes": 89774
+    },
+    {
+     "file": "hero-tablet-1024.webp",
+     "width": 1024,
+     "height": 764,
+     "format": "webp",
+     "bytes": 108362
+    },
+    {
+     "file": "hero-tablet-1600.avif",
+     "width": 1600,
+     "height": 1195,
+     "format": "avif",
+     "bytes": 158901
+    },
+    {
+     "file": "hero-tablet-1600.webp",
+     "width": 1600,
+     "height": 1195,
+     "format": "webp",
+     "bytes": 210198
+    }
+   ],
+   "purpose": "Homepage hero 768–1023px (4:3)"
+  },
+  {
+   "name": "hero-mobile",
+   "higgsfieldJobId": "2f012c45-1835-4428-8e0d-13a223094a75",
+   "master": "assets-src/higgsfield/hero-mobile.png",
+   "masterSize": [
+    1520,
+    2688
+   ],
+   "variants": [
+    {
+     "file": "hero-mobile-640.avif",
+     "width": 640,
+     "height": 1132,
+     "format": "avif",
+     "bytes": 72775
+    },
+    {
+     "file": "hero-mobile-640.webp",
+     "width": 640,
+     "height": 1132,
+     "format": "webp",
+     "bytes": 87734
+    },
+    {
+     "file": "hero-mobile-1080.avif",
+     "width": 1080,
+     "height": 1910,
+     "format": "avif",
+     "bytes": 139631
+    },
+    {
+     "file": "hero-mobile-1080.webp",
+     "width": 1080,
+     "height": 1910,
+     "format": "webp",
+     "bytes": 185992
+    }
+   ],
+   "purpose": "Homepage hero <768px (9:16)"
+  },
+  {
+   "name": "campaign-weekly-promo",
+   "higgsfieldJobId": "3ed9cae1-9c35-465c-8c3b-0cf05f9de906",
+   "master": "assets-src/higgsfield/campaign-weekly-promo.png",
+   "masterSize": [
+    2688,
+    1152
+   ],
+   "variants": [
+    {
+     "file": "campaign-weekly-promo-960.avif",
+     "width": 960,
+     "height": 411,
+     "format": "avif",
+     "bytes": 46404
+    },
+    {
+     "file": "campaign-weekly-promo-960.webp",
+     "width": 960,
+     "height": 411,
+     "format": "webp",
+     "bytes": 52526
+    },
+    {
+     "file": "campaign-weekly-promo-1600.avif",
+     "width": 1600,
+     "height": 686,
+     "format": "avif",
+     "bytes": 98858
+    },
+    {
+     "file": "campaign-weekly-promo-1600.webp",
+     "width": 1600,
+     "height": 686,
+     "format": "webp",
+     "bytes": 117960
+    },
+    {
+     "file": "campaign-weekly-promo-2400.avif",
+     "width": 2400,
+     "height": 1029,
+     "format": "avif",
+     "bytes": 163356
+    },
+    {
+     "file": "campaign-weekly-promo-2400.webp",
+     "width": 2400,
+     "height": 1029,
+     "format": "webp",
+     "bytes": 214374
+    }
+   ],
+   "purpose": "Weekly promotions banner"
+  },
+  {
+   "name": "campaign-new-arrivals",
+   "higgsfieldJobId": "9f1e4f13-cc84-481f-9596-6cf69c508dfd",
+   "master": "assets-src/higgsfield/campaign-new-arrivals.png",
+   "masterSize": [
+    2688,
+    1152
+   ],
+   "variants": [
+    {
+     "file": "campaign-new-arrivals-960.avif",
+     "width": 960,
+     "height": 411,
+     "format": "avif",
+     "bytes": 19416
+    },
+    {
+     "file": "campaign-new-arrivals-960.webp",
+     "width": 960,
+     "height": 411,
+     "format": "webp",
+     "bytes": 23982
+    },
+    {
+     "file": "campaign-new-arrivals-1600.avif",
+     "width": 1600,
+     "height": 686,
+     "format": "avif",
+     "bytes": 40994
+    },
+    {
+     "file": "campaign-new-arrivals-1600.webp",
+     "width": 1600,
+     "height": 686,
+     "format": "webp",
+     "bytes": 53952
+    },
+    {
+     "file": "campaign-new-arrivals-2400.avif",
+     "width": 2400,
+     "height": 1029,
+     "format": "avif",
+     "bytes": 70119
+    },
+    {
+     "file": "campaign-new-arrivals-2400.webp",
+     "width": 2400,
+     "height": 1029,
+     "format": "webp",
+     "bytes": 101676
+    }
+   ],
+   "purpose": "New arrivals / Bio selection banner"
+  },
+  {
+   "name": "campaign-wholesale",
+   "higgsfieldJobId": "c4aeee51-11a8-45f1-9cb1-3ad9b7abb6c7",
+   "master": "assets-src/higgsfield/campaign-wholesale.png",
+   "masterSize": [
+    2688,
+    1152
+   ],
+   "variants": [
+    {
+     "file": "campaign-wholesale-960.avif",
+     "width": 960,
+     "height": 411,
+     "format": "avif",
+     "bytes": 26339
+    },
+    {
+     "file": "campaign-wholesale-960.webp",
+     "width": 960,
+     "height": 411,
+     "format": "webp",
+     "bytes": 34096
+    },
+    {
+     "file": "campaign-wholesale-1600.avif",
+     "width": 1600,
+     "height": 686,
+     "format": "avif",
+     "bytes": 54951
+    },
+    {
+     "file": "campaign-wholesale-1600.webp",
+     "width": 1600,
+     "height": 686,
+     "format": "webp",
+     "bytes": 76314
+    },
+    {
+     "file": "campaign-wholesale-2400.avif",
+     "width": 2400,
+     "height": 1029,
+     "format": "avif",
+     "bytes": 93712
+    },
+    {
+     "file": "campaign-wholesale-2400.webp",
+     "width": 2400,
+     "height": 1029,
+     "format": "webp",
+     "bytes": 140348
+    }
+   ],
+   "purpose": "Wholesale / quick order banner, login page"
+  },
+  {
+   "name": "campaign-seasonal",
+   "higgsfieldJobId": "efb6fd52-e518-416e-86ef-72b4e6709b41",
+   "master": "assets-src/higgsfield/campaign-seasonal.png",
+   "masterSize": [
+    2688,
+    1152
+   ],
+   "variants": [
+    {
+     "file": "campaign-seasonal-960.avif",
+     "width": 960,
+     "height": 411,
+     "format": "avif",
+     "bytes": 49886
+    },
+    {
+     "file": "campaign-seasonal-960.webp",
+     "width": 960,
+     "height": 411,
+     "format": "webp",
+     "bytes": 58220
+    },
+    {
+     "file": "campaign-seasonal-1600.avif",
+     "width": 1600,
+     "height": 686,
+     "format": "avif",
+     "bytes": 102258
+    },
+    {
+     "file": "campaign-seasonal-1600.webp",
+     "width": 1600,
+     "height": 686,
+     "format": "webp",
+     "bytes": 125018
+    },
+    {
+     "file": "campaign-seasonal-2400.avif",
+     "width": 2400,
+     "height": 1029,
+     "format": "avif",
+     "bytes": 165551
+    },
+    {
+     "file": "campaign-seasonal-2400.webp",
+     "width": 2400,
+     "height": 1029,
+     "format": "webp",
+     "bytes": 220178
+    }
+   ],
+   "purpose": "Seasonal (autumn–winter holidays) banner — not yet placed"
+  },
+  {
+   "name": "cat-drinks",
+   "higgsfieldJobId": "ce599600-2baa-46b3-94c0-46dab4e64e0c",
+   "master": "assets-src/higgsfield/cat-drinks.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-drinks-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 23909
+    },
+    {
+     "file": "cat-drinks-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 27576
+    },
+    {
+     "file": "cat-drinks-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 54916
+    },
+    {
+     "file": "cat-drinks-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 65424
+    }
+   ],
+   "purpose": "Category tile: drinks"
+  },
+  {
+   "name": "cat-meat",
+   "higgsfieldJobId": "760e5514-4d6c-4d49-9595-614c099d7ec9",
+   "master": "assets-src/higgsfield/cat-meat.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-meat-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 32007
+    },
+    {
+     "file": "cat-meat-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 37840
+    },
+    {
+     "file": "cat-meat-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 80644
+    },
+    {
+     "file": "cat-meat-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 96598
+    }
+   ],
+   "purpose": "Category tile: meat"
+  },
+  {
+   "name": "cat-dairy",
+   "higgsfieldJobId": "957a70c5-9da9-4b0e-a889-810553273490",
+   "master": "assets-src/higgsfield/cat-dairy.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-dairy-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 22153
+    },
+    {
+     "file": "cat-dairy-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 28342
+    },
+    {
+     "file": "cat-dairy-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 52718
+    },
+    {
+     "file": "cat-dairy-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 67152
+    }
+   ],
+   "purpose": "Category tile: dairy"
+  },
+  {
+   "name": "cat-confectionery",
+   "higgsfieldJobId": "b9570d5c-1a04-45dc-a27b-7a144dc115d8",
+   "master": "assets-src/higgsfield/cat-confectionery.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-confectionery-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 27470
+    },
+    {
+     "file": "cat-confectionery-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 32710
+    },
+    {
+     "file": "cat-confectionery-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 61316
+    },
+    {
+     "file": "cat-confectionery-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 74608
+    }
+   ],
+   "purpose": "Category tile: confectionery"
+  },
+  {
+   "name": "cat-preserves",
+   "higgsfieldJobId": "207433d4-e734-4d33-b5cd-dcfc0c87acc7",
+   "master": "assets-src/higgsfield/cat-preserves.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-preserves-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 26768
+    },
+    {
+     "file": "cat-preserves-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 30210
+    },
+    {
+     "file": "cat-preserves-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 55560
+    },
+    {
+     "file": "cat-preserves-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 65482
+    }
+   ],
+   "purpose": "Category tile: preserves"
+  },
+  {
+   "name": "cat-bakery",
+   "higgsfieldJobId": "a6459aa2-36fa-4502-89e8-a1a80f1bb69e",
+   "master": "assets-src/higgsfield/cat-bakery.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-bakery-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 33918
+    },
+    {
+     "file": "cat-bakery-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 37894
+    },
+    {
+     "file": "cat-bakery-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 81640
+    },
+    {
+     "file": "cat-bakery-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 93252
+    }
+   ],
+   "purpose": "Category tile: bakery"
+  },
+  {
+   "name": "cat-pantry",
+   "higgsfieldJobId": "9ff473b0-cc0b-4366-9a76-638211f30f29",
+   "master": "assets-src/higgsfield/cat-pantry.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-pantry-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 23073
+    },
+    {
+     "file": "cat-pantry-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 28590
+    },
+    {
+     "file": "cat-pantry-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 51121
+    },
+    {
+     "file": "cat-pantry-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 64316
+    }
+   ],
+   "purpose": "Category tile: pantry"
+  },
+  {
+   "name": "cat-fruit-veg",
+   "higgsfieldJobId": "b7470aa4-bdd4-426f-b342-520a6c19036e",
+   "master": "assets-src/higgsfield/cat-fruit-veg.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-fruit-veg-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 27874
+    },
+    {
+     "file": "cat-fruit-veg-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 31732
+    },
+    {
+     "file": "cat-fruit-veg-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 63154
+    },
+    {
+     "file": "cat-fruit-veg-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 74348
+    }
+   ],
+   "purpose": "Category tile: fruit-veg"
+  },
+  {
+   "name": "cat-nuts-snacks",
+   "higgsfieldJobId": "963e874a-167a-4bd2-b63b-3d9820382801",
+   "master": "assets-src/higgsfield/cat-nuts-snacks.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-nuts-snacks-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 29185
+    },
+    {
+     "file": "cat-nuts-snacks-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 33282
+    },
+    {
+     "file": "cat-nuts-snacks-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 64328
+    },
+    {
+     "file": "cat-nuts-snacks-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 76766
+    }
+   ],
+   "purpose": "Category tile: nuts-snacks"
+  },
+  {
+   "name": "cat-household",
+   "higgsfieldJobId": "e44a3e14-b588-41a6-93ec-d1e734431470",
+   "master": "assets-src/higgsfield/cat-household.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-household-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 18617
+    },
+    {
+     "file": "cat-household-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 23916
+    },
+    {
+     "file": "cat-household-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 41130
+    },
+    {
+     "file": "cat-household-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 54564
+    }
+   ],
+   "purpose": "Category tile: household"
+  },
+  {
+   "name": "cat-baby",
+   "higgsfieldJobId": "d0543320-9b47-42b9-89e1-2f83eec9eed7",
+   "master": "assets-src/higgsfield/cat-baby.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-baby-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 15381
+    },
+    {
+     "file": "cat-baby-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 20080
+    },
+    {
+     "file": "cat-baby-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 30017
+    },
+    {
+     "file": "cat-baby-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 41536
+    }
+   ],
+   "purpose": "Category tile: baby"
+  },
+  {
+   "name": "cat-organic",
+   "higgsfieldJobId": "43289619-88e4-41c1-9d2b-f341e2f3cfcc",
+   "master": "assets-src/higgsfield/cat-organic.png",
+   "masterSize": [
+    1168,
+    880
+   ],
+   "variants": [
+    {
+     "file": "cat-organic-480.avif",
+     "width": 480,
+     "height": 362,
+     "format": "avif",
+     "bytes": 28034
+    },
+    {
+     "file": "cat-organic-480.webp",
+     "width": 480,
+     "height": 362,
+     "format": "webp",
+     "bytes": 33038
+    },
+    {
+     "file": "cat-organic-800.avif",
+     "width": 800,
+     "height": 603,
+     "format": "avif",
+     "bytes": 64241
+    },
+    {
+     "file": "cat-organic-800.webp",
+     "width": 800,
+     "height": 603,
+     "format": "webp",
+     "bytes": 77900
+    }
+   ],
+   "purpose": "Category tile: organic"
+  }
+ ],
+ "generator": {
+  "tool": "Higgsfield MCP",
+  "model": "gpt_image_2_5 (variant flare)",
+  "quality": "high",
+  "generatedOn": "2026-10-21",
+  "creditsSpent": "≈37"
+ },
+ "usage": [
+  "AI-generated mood/editorial imagery for layout, categories and campaigns only.",
+  "Never used as, or in place of, catalog product photography (product images come from PrestaShop).",
+  "Prompts forbid text, logos, labels, packaging and people; no brand, price or ingredient claims are depicted.",
+  "Commercial usage rights follow the Higgsfield plan terms of the account that generated them (starter plan) — confirm before production launch."
+ ]
+}
