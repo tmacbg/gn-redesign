@@ -14,11 +14,20 @@ export default async function QuickOrderPage() {
         <h1 className="text-2xl font-extrabold tracking-tight md:text-3xl">Бърза поръчка</h1>
         <p className="mt-1 flex items-center gap-2 text-sm text-fg-muted"><Keyboard className="h-4 w-4" />Търсете по име или референция, въведете количества (↑/↓, Enter) и добавете всички наведнъж.</p>
       </div>
-      {viewer.isCustomer ? <QuickOrder /> : (
+      {viewer.canOrder ? <QuickOrder /> : (
         <div className="flex flex-col items-center gap-3 rounded-lg border border-border bg-surface py-14 text-center">
           <Lock className="h-8 w-8 text-fg-subtle" />
-          <p className="font-semibold">Бързата поръчка е достъпна за клиенти с профил</p>
-          <Link href="/bg/vhod" className={buttonClass('primary')}>Вход</Link>
+          {viewer.isLoggedIn ? (
+            <>
+              <p className="font-semibold">Поръчките за вашия профил са временно ограничени</p>
+              <a href="tel:+359888402639" className={buttonClass('primary')}>Свържете се с GN</a>
+            </>
+          ) : (
+            <>
+              <p className="font-semibold">Бързата поръчка е достъпна за клиенти с профил</p>
+              <Link href="/bg/vhod" className={buttonClass('primary')}>Вход</Link>
+            </>
+          )}
         </div>
       )}
     </div>

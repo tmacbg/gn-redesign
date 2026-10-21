@@ -23,7 +23,7 @@ export function CategoryMenu({ tree }: { tree: MenuNode[] }) {
   return (
     <div ref={panel} className="relative">
       <button type="button" onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-controls="mega-menu"
-        className="inline-flex h-11 items-center gap-2 rounded bg-primary px-4 text-sm font-semibold text-primary-fg hover:bg-primary-hover">
+        className="inline-flex h-11 shrink-0 items-center gap-2 whitespace-nowrap rounded bg-primary px-4 text-sm font-semibold text-primary-fg hover:bg-primary-hover">
         {open ? <X className="h-4 w-4" /> : <LayoutGrid className="h-4 w-4" />} Всички категории
       </button>
       {open && (

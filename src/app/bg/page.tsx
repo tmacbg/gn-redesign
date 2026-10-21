@@ -46,9 +46,9 @@ export default async function HomePage() {
             <p className="mt-3 max-w-md text-sm text-fg-muted sm:text-base md:mt-4 md:text-lg">Над 10&nbsp;000 продукта от български производители — колбаси, сирена, консерви, напитки и още. Поръчвате до събота, доставяме до вашия магазин.</p>
             <div className="mt-auto flex flex-col gap-2.5 pt-6 sm:flex-row sm:flex-wrap sm:gap-3 md:mt-6 md:pt-0">
               <Link href="/bg/kategorii" className={buttonClass('primary', 'lg')}>Разгледай каталога <ArrowRight className="h-4 w-4" /></Link>
-              {viewer.isCustomer
+              {viewer.canOrder
                 ? <Link href="/bg/barza-porachka" className={buttonClass('secondary', 'lg')}>Бърза поръчка</Link>
-                : <Link href="/bg/vhod" className={buttonClass('secondary', 'lg')}>Вход за клиенти</Link>}
+                : !viewer.isLoggedIn && <Link href="/bg/vhod" className={buttonClass('secondary', 'lg')}>Вход за клиенти</Link>}
             </div>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default async function HomePage() {
         </ul>
       </section>
 
-      {viewer.isCustomer && (
+      {viewer.canOrder && (
         <Section title="Поръчай отново" eyebrow="От последните ви поръчки (демо)" href="/bg/barza-porachka" linkLabel="Бърза поръчка">
           <Rail>{reorder!.map((p) => <ProductCard key={p.id} product={p} price={priceFor(p, viewer)} />)}</Rail>
         </Section>

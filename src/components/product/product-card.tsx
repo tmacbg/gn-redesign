@@ -4,6 +4,7 @@ import { Package } from 'lucide-react';
 import type { CustomerPrice, Product } from '@/domain/types';
 import { AddToCart } from './add-to-cart';
 import { PriceTag } from './price-tag';
+import { getViewer } from '@/server/viewer';
 import { productHref, toCartLine } from './line';
 
 export function PackBadges({ product }: { product: Product }) {
@@ -20,8 +21,9 @@ export function PackBadges({ product }: { product: Product }) {
   );
 }
 
-export function ProductCard({ product, price, priority }: { product: Product; price: CustomerPrice | null; priority?: boolean }) {
+export async function ProductCard({ product, price, priority }: { product: Product; price: CustomerPrice | null; priority?: boolean }) {
   const href = productHref(product);
+  const { canOrder } = await getViewer();
   return (
     <article className="group relative flex flex-col rounded-md border border-border bg-surface p-2.5 transition-shadow duration-200 hover:shadow-2 sm:p-3">
       <Link href={href} className="relative mb-2.5 block aspect-square overflow-hidden rounded bg-white">
@@ -39,14 +41,15 @@ export function ProductCard({ product, price, priority }: { product: Product; pr
       <div className="mt-1.5"><PackBadges product={product} /></div>
       <div className="relative z-10 mt-auto flex flex-col gap-2 pt-3">
         <PriceTag price={price} basis={product.pack.priceBasis} />
-        {price && <AddToCart line={toCartLine(product, price)} canOrder={product.availableForOrder} size="sm" full />}
+        {price && <AddToCart line={toCartLine(product, price)} canOrder={canOrder && product.availableForOrder} size="sm" full />}
       </div>
     </article>
   );
 }
 
-export function ProductRow({ product, price }: { product: Product; price: CustomerPrice | null }) {
+export async function ProductRow({ product, price }: { product: Product; price: CustomerPrice | null }) {
   const href = productHref(product);
+  const { canOrder } = await getViewer();
   return (
     <div className="flex items-center gap-3 border-b border-border px-2 py-2.5 last:border-0 sm:gap-4 sm:px-3">
       <Link href={href} className="relative h-14 w-14 shrink-0 overflow-hidden rounded bg-white">
@@ -62,7 +65,7 @@ export function ProductRow({ product, price }: { product: Product; price: Custom
         </div>
       </div>
       <PriceTag price={price} basis={product.pack.priceBasis} className="hidden w-36 text-right md:block" />
-      {price ? <AddToCart line={toCartLine(product, price)} canOrder={product.availableForOrder} size="sm" /> : <PriceTag price={null} className="md:hidden" />}
+      {price ? <AddToCart line={toCartLine(product, price)} canOrder={canOrder && product.availableForOrder} size="sm" /> : <PriceTag price={null} className="md:hidden" />}
     </div>
   );
 }

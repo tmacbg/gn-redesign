@@ -66,7 +66,9 @@ export default async function ProductPage({ params }: Props) {
               <PriceTag price={price} basis={product.pack.priceBasis} size="lg" />
               {price?.source === 'catalog-base' && <p className="mt-1 text-2xs text-fg-subtle">Демо: базова каталожна цена. Реалната цена зависи от клиентската група.</p>}
               <div className="mt-4 flex flex-wrap items-center gap-3">
-                {price ? <AddToCart line={toCartLine(product, price)} canOrder={product.availableForOrder} /> : (
+                {price && !viewer.canOrder ? (
+                  <a href="tel:+359888402639" className="text-sm font-semibold text-warning hover:underline">Поръчките за профила ви са временно ограничени — свържете се с GN</a>
+                ) : price ? <AddToCart line={toCartLine(product, price)} canOrder={product.availableForOrder} /> : (
                   <a href="/bg/vhod" className="inline-flex h-12 items-center rounded bg-primary px-6 font-semibold text-primary-fg hover:bg-primary-hover">Вход за клиенти</a>
                 )}
                 {product.quantity.min > 1 && <span className="text-sm text-fg-muted">Поръчва се минимум <b className="text-fg">{product.quantity.min}</b></span>}
